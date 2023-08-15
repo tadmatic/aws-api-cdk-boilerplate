@@ -1,15 +1,19 @@
-!jest.config.js
-!generator.js
-*.d.ts
 node_modules
+
+# IDE files
 .idea
 .DS_Store
 
-# CDK asset staging directory
-.cdk.staging
+# CDK build assets
 cdk.out
+cdk.context.json
+
+# Logs
 *.log
 
-# environment files
+# Environment files
 .env
 .env.prod
+.env.dev
+.env.test
+.env.staging
